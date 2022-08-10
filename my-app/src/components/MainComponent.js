@@ -4,7 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import About from "./About";
 import Contact from "./Contact";
-import Projects from "./Projects";
+import Portfolio from "./Portfolio";
 import Resume from "./Resume"
 
 function Main (){
@@ -14,7 +14,7 @@ function Main (){
     <Routes> 
     <Route path="/" element={<About/>}/>
     <Route path="/about" element={<About/>}/>
-    <Route path="/projects" element={<Projects/>}/>
+    <Route path="/portfolio" element={<Portfolio/>}/>
     <Route path="/contact" element={<Contact/>}/>
     <Route path="/resume" element={<Resume/>}/>
     </Routes>
