@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/React-Porftolio/precache-manifest.ca265c4c38728ec56d9e99904b4e231a.js"
+  "/React-Porftolio/precache-manifest.1fcde6752cb63100d77e7f3db1a2058a.js"
 );
 
 workbox.clientsClaim();
