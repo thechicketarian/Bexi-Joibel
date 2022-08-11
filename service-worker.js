@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/thechicketarian/React-Porftolio/precache-manifest.3c385850cf502c8fb64fdf6c350d7c6a.js"
+  "/React-Porftolio/precache-manifest.b5ff61fe6708857e16248c876bfc32f6.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/thechicketarian/React-Porftolio/index.html", {
+workbox.routing.registerNavigationRoute("/React-Porftolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
