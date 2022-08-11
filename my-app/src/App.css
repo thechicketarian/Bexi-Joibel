@@ -69,10 +69,25 @@ a{
 
 .allCards{
   display: flex;
+  flex-direction: column;
 }
 
 .projectCard {
-  border: 2px solid black;
+  border: 6px dashed rgb(204, 167, 1);
   margin: 20px;
   padding: 40px;
+}
+
+.hr {
+  border: 1px dashed rgb(204, 167, 1);
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+.pLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectEmoji {
+  font-size: 30px;
 }
