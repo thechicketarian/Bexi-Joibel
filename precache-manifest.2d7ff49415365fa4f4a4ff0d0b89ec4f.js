@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3dec4f85f0dcc59a4850",
+    "revision": "590d9d369f1424cdffa4",
     "url": "/React-Porftolio/static/css/main.22696f2d.chunk.css"
   },
   {
-    "revision": "3dec4f85f0dcc59a4850",
-    "url": "/React-Porftolio/static/js/main.d690035b.chunk.js"
+    "revision": "590d9d369f1424cdffa4",
+    "url": "/React-Porftolio/static/js/main.05bb5720.chunk.js"
   },
   {
     "revision": "b0d02ec95e589045d6cb",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/React-Porftolio/static/media/bexi.c35c321a.jpg"
   },
   {
-    "revision": "f8ea45760c66cb62208727978574914f",
+    "revision": "aae19e4f10bec76d661eb0f7fa6050cc",
     "url": "/React-Porftolio/index.html"
   }
 ];
