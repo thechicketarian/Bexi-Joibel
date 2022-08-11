@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/thechicketarian/React-Porftolio/static/css/main.f2a1295b.css",
-    "main.js": "/thechicketarian/React-Porftolio/static/js/main.b6a06d40.js",
-    "static/js/787.28cb0dcd.chunk.js": "/thechicketarian/React-Porftolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/bexi.jpg": "/thechicketarian/React-Porftolio/static/media/bexi.2146e2b579c7df2098f5.jpg",
-    "index.html": "/thechicketarian/React-Porftolio/index.html",
-    "main.f2a1295b.css.map": "/thechicketarian/React-Porftolio/static/css/main.f2a1295b.css.map",
-    "main.b6a06d40.js.map": "/thechicketarian/React-Porftolio/static/js/main.b6a06d40.js.map",
-    "787.28cb0dcd.chunk.js.map": "/thechicketarian/React-Porftolio/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/thechicketarian/React-Porftolio/my-app/static/css/main.f2a1295b.css",
+    "main.js": "/thechicketarian/React-Porftolio/my-app/static/js/main.8bbc149e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/thechicketarian/React-Porftolio/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bexi.jpg": "/thechicketarian/React-Porftolio/my-app/static/media/bexi.2146e2b579c7df2098f5.jpg",
+    "index.html": "/thechicketarian/React-Porftolio/my-app/index.html",
+    "main.f2a1295b.css.map": "/thechicketarian/React-Porftolio/my-app/static/css/main.f2a1295b.css.map",
+    "main.8bbc149e.js.map": "/thechicketarian/React-Porftolio/my-app/static/js/main.8bbc149e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/thechicketarian/React-Porftolio/my-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2a1295b.css",
-    "static/js/main.b6a06d40.js"
+    "static/js/main.8bbc149e.js"
   ]
 }
