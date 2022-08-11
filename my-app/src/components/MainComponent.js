@@ -9,7 +9,7 @@ import Resume from "./Resume"
 
 function Main (){
     return (
-    <BrowserRouter> 
+    <BrowserRouter basename="react-portfolio"> 
     <Header/>
     <Routes> 
     <Route path="/" element={<About/>}/>
