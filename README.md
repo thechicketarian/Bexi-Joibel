@@ -1,10 +1,11 @@
 # Bexi Joibel Portfolio
 
-Welcome to my portfolio! Here you can see a glance of my work not only as a designer but as a rookie developer. Happy viewing! 
+Welcome to my portfolio! Here you can see a glance of my work not only as a designer but as a rookie developer.
 
-## React Porftolio
+Happy viewing! 
 
-This project was built using react.js, node.js 
+## Technologies
+HTML/CSS, Node.js, React.js
 
 ### Development Link
 
