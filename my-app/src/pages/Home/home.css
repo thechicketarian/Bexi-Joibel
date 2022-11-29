@@ -1,0 +1,39 @@
+.hp-main-container {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+
+}
+
+.hp-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px
+  }
+  
+  .hp-menu p,a {
+    margin-bottom: 25px
+  }
+  .aka-span{
+    font-style: italic;
+    font-size: 15px;
+  
+  }
+  .h2-home {
+    margin-top: -25px;
+    color: rgb(92, 92, 92);
+  }
+
+
+.homepageVideo {
+  /* z-index: -1; */
+  object-fit: scale-down;
+  width: 100vw; 
+  height: 100vh;
+  position: fixed;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  opacity: .4;
+}
+
