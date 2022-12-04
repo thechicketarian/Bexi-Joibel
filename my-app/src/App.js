@@ -22,7 +22,7 @@ import './index.css';
 function App() {
 
   return (
-    <BrowserRouter basename="React-Portfolio"> 
+    <BrowserRouter basename=""> 
     <Header/>
     <Routes> 
     <Route path="/" element={<Home/>}/>

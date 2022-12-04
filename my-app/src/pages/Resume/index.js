@@ -1,5 +1,5 @@
 import React from "react"; 
-import ResumeFile from "../../images/resume.pdf";
+import ResumeFile from "../../images/BexiResume.pdf";
 
 function Resume(){
     return(

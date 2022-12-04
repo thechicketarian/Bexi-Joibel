@@ -14,11 +14,10 @@
   }
 
   h1, h2, h3 , h4, h5 , h6 {
-    text-transform: lowercase;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 400;
+    /* text-transform: lowercase; */
+    font-family: 'Roboto', sans-serif;
     line-height: 1.8em;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
   }
 
 

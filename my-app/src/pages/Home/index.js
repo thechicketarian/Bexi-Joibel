@@ -1,7 +1,7 @@
 import React from "react"; 
 import {Link } from "react-router-dom"
 import '../../pages/Home/home.css'
-import backgroundVideoHomePg from '../../images/header.mp4';
+// import backgroundVideoHomePg from '../../images/header.mp4';
 
 function Home(){
     return(
@@ -10,7 +10,7 @@ function Home(){
 
         </div>
         <div className="container"> 
-        <video className="homepageVideo" autoPlay muted loop> <source src={backgroundVideoHomePg} type="video/mp4"/> </video> 
+        {/* <video className="homepageVideo" autoPlay muted loop> <source src={backgroundVideoHomePg} type="video/mp4"/> </video>  */}
 
         <div className="hp-main-container"> 
         <h1> Bexi Joibel<span className="aka-span"> aka</span></h1> <h2 className="h2-home"> the chicketarian </h2>
