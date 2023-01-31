@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BexiJoibel/precache-manifest.b451036a40084961864de905393f5b40.js"
+  "/BexiJoibel/precache-manifest.cec31c5390385bda6216acfdbf8dd5e0.js"
 );
 
 workbox.clientsClaim();

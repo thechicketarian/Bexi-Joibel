@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fa6efcc269d188a30802",
+    "revision": "faab00b07f00dc1207e3",
     "url": "/BexiJoibel/static/css/main.54ccdc6e.chunk.css"
   },
   {
-    "revision": "fa6efcc269d188a30802",
-    "url": "/BexiJoibel/static/js/main.e78df956.chunk.js"
+    "revision": "faab00b07f00dc1207e3",
+    "url": "/BexiJoibel/static/js/main.05ab6a2d.chunk.js"
   },
   {
     "revision": "663786df02d33458450a",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/BexiJoibel/static/media/artImg.2b67ae29.jpg"
   },
   {
-    "revision": "8002d1edbc976ee7ae62342515aaa8d1",
+    "revision": "df66806836295fa1758329be99642d3d",
     "url": "/BexiJoibel/index.html"
   }
 ];
