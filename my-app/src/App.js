@@ -23,7 +23,7 @@ import './index.css';
 function App() {
 
   return (
-    <BrowserRouter basename="/Bexi-Joibel"> 
+    <BrowserRouter> 
     <Header/>
     <Routes> 
     <Route path="/" element={<Home/>}/>
