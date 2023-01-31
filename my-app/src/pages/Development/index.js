@@ -1,5 +1,7 @@
 import React from "react"; 
+// import Bootcampers from "./bootcampers";
 import Project from "./project";
+import { Outlet } from 'react-router-dom';
 
 const projects = [
     {
@@ -27,13 +29,14 @@ const projects = [
     }
 ]
 
-
 function Portfolio(){
     return(
         <div className="container"> 
-        <h1> Projects </h1>
+        <h2> development. </h2>
         <Project projects={projects}/>
+        <div>  <Outlet context={projects}/> </div>
         </div>
+       
     )
 }
 

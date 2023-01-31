@@ -1,0 +1,29 @@
+/* PROJECTS */
+
+.allCards{
+    display: flex;
+
+  }
+  
+  .projectCard {
+    margin: 20px;
+    padding: 40px;
+    width: 45%;
+  }
+  
+  .hr {
+    border: .5px solid rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom:15px;
+  }
+  .pLinks {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  
+  .projectEmoji {
+    font-size: 30px;
+  }
+  
+  

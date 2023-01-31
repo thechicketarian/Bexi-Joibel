@@ -1,6 +1,6 @@
 import React from "react"; 
 import {Link} from "react-router-dom"
-import ResumeFile from "../images/resume.pdf";
+import ResumeFile from "../images/BexiResume.pdf";
 import { useLocation } from "react-router-dom";
 
 function Footer() {
@@ -11,7 +11,7 @@ function Footer() {
   if (pathname === "/" ) return null;
   
   return (
-    <footer className="container"> made by bexi 
+    <footer className="container"> 2022
           <a href="https://github.com/thechicketarian/React-Porftolio" rel="noopener noreferrer" target="_blank"> GitHub</a>
           <Link to ="portfolio"> Portfolio </Link>
           {/* <Link to ="resume"> Resume </Link> */}

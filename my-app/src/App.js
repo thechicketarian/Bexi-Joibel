@@ -12,6 +12,7 @@ import Design from "./pages/Design/index";
 import Development from "./pages/Development/index";
 import Resume from "./pages/Resume/index"
 import Home from "./pages/Home/index";
+import Bootcampers from './pages/Development/bootcampers';
 
 //pages
 
@@ -28,7 +29,10 @@ function App() {
     <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/design" element={<Design/>}/>
-    <Route path="/development" element={<Development/>}/>
+    <Route path="/dev" element={<Development/>}>
+      <Route path="bootcampers" element={<Bootcampers/>}/>
+    </Route>
+    {/* <Route path="bootcampers" element={<Bootcampers/>}/> */}
     <Route path="/contact" element={<Contact/>}/>
     <Route path="/resume" element={<Resume/>}/>
     </Routes>

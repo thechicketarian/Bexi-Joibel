@@ -1,30 +1,56 @@
-h1{
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 90px;
+
+
+.homecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* .hp-main-container {
-  position: absolute;
-  top: 30%;
-  left: 30%;
+hr {
+  width: 100%;
+  border: 0.5px solid white;
+}
+
+span {
+  background-color: white;
+  color: black;
+  padding-left:5px;
+  padding-right: 5px;
+}
+
+/* .splinterQuote {
+  color: black;
+  border: 1px solid rgb(255, 255, 255);
 } */
 
+.homeH1 {
+  /* position: absolute; */
+  /* top:50%; */
+  /* left: 50%; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  padding: 10px;
+}
+
 .hp-menu {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  }
+
+  .hp-menu hr {
+    width: 50%;
   }
   
-  .hp-menu p,a {
-    margin-bottom: 25px
+  .hp-menu a {
+    padding: 15px;
+    /* margin: 10px; */
+    /* width: 250px; */
   }
-  .aka-span{
-    font-weight: 400;
-    font-style: italic;
-    font-size: 15px;
-  
-  }
+
+
   .h2-home {
     margin-top: -55px;
     color: rgb(92, 92, 92);
@@ -33,14 +59,111 @@ h1{
 
 
 .homepageVideo {
-  /* z-index: -1; */
-  object-fit: scale-down;
-  width: 100vw; 
-  height: 100vh;
-  position: fixed;
+  z-index: -1;
+  width: 50%;
+  /* transform: rotate(-90deg); */
+  height: 60vh;
+  position: absolute;
   margin: 0 auto;
   top: 0;
-  left: 0;
-  opacity: .4;
+  right: 0;
 }
 
+
+.boxes {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.boxes div {
+  /* border-left: solid white 4px; */
+  margin: 20px;
+  width: 100%;
+  height: auto;
+  /* position: relative; */
+}
+
+.boxes h2 {
+  width: 75%;
+  padding: 15px;
+  text-align: left;
+  margin: unset;
+}
+
+.boxes img {
+  filter: grayscale(1);
+  height: auto;
+  width: 100%;
+
+}
+/* .spanImgTitle {
+  position: absolute;
+  z-index: 999;
+  transform: rotate(90deg);
+  right: 0;
+} */
+
+
+
+/* 
+12:20 01/09, remember that you wanted to style the works titles veritcally you have to do absolute and relative on the image and the span, then rotate 90deg. 
+
+start mobile developmen on home and about
+
+customize public > index.html so its not the default comments there
+
+COMMIT YOUR EDITS 
+} */
+
+
+/* MOBILE DESIGN */
+
+@media only screen and (max-width: 915px) { 
+
+  .homecontainer {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+  }
+  .homepageVideo {
+    position: absolute;
+    transform: rotate(-90deg);
+    width: auto;
+    /* height: 100%; */
+    background-color: pink;
+    margin: 0 auto;
+    top: auto;
+    right: auto;
+  }
+
+  .homeH1 {
+    width: 100%;
+    border-right: white solid .5px;
+  }
+
+  .hp-menu {
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+
+  .boxes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* .spanImgTitle {
+position:inherit;
+  } */
+
+  .boxes h2 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+}
