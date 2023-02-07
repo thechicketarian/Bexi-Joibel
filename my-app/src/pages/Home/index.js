@@ -5,6 +5,7 @@ import backgroundVideoHomePg from '../../images/header.mp4';
 import designImg from '../../images/vidthumb.jpg'
 import devImg from '../../images/gymRats.jpg'
 import artImg from '../../images/artImg.jpg'
+import videoGif from '../../images/videoMobile.gif'
 
 function Home(){
     return(
@@ -15,7 +16,8 @@ function Home(){
         <p className="splinterQuote"> <span> "We choose what holds us back and moves us forward" - master splinter </span> </p>
         <video className="homepageVideo" autoPlay muted loop playsInline> <source src={backgroundVideoHomePg} type="video/mp4"/> </video>
         </div>
-        
+        <img className="homepageVideoGif" src={videoGif} alt="Custom Drawing"></img>
+
         <h1 className="homeH1"> artist. designer. developer.  </h1>
         <div className="hp-menu"> 
         <Link to ="development"> hey, i coded this && collabed with that</Link>

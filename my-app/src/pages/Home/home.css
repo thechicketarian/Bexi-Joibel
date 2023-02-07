@@ -67,6 +67,18 @@ span {
   margin: 0 auto;
   top: 0;
   right: 0;
+  display: none;
+}
+
+.homepageVideoGif {
+  z-index: -1;
+  width: 50%;
+  /* transform: rotate(-90deg); */
+  height: 60vh;
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  right: 0;
 }
 
 
@@ -128,14 +140,23 @@ COMMIT YOUR EDITS
     /* position: relative; */
   }
   .homepageVideo {
-    position: absolute;
+    /* position: absolute;
     transform: rotate(-90deg);
     width: auto;
-    /* height: 100%; */
     background-color: pink;
     margin: 0 auto;
     top: auto;
-    right: auto;
+    right: auto; */
+    display: none;
+  }
+
+  .homepageVideoGif {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* 
+    top: auto;
+    right: auto; */
   }
 
   .homeH1 {
