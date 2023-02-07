@@ -13,7 +13,7 @@ function Home(){
         <p> bexijoibel.com </p>
         <hr></hr>
         <p className="splinterQuote"> <span> "We choose what holds us back and moves us forward" - master splinter </span> </p>
-        <video className="homepageVideo" autoPlay muted loop> <source src={backgroundVideoHomePg} type="video/mp4"/> </video>
+        <video className="homepageVideo" autoPlay muted loop playsInline> <source src={backgroundVideoHomePg} type="video/mp4"/> </video>
         </div>
         
         <h1 className="homeH1"> artist. designer. developer.  </h1>
@@ -32,21 +32,21 @@ function Home(){
 
         <div>
         <span className="spanImgTitle"> Idle Hands // 2012 </span>
-        <img className="artImg" src={artImg}></img>
+        <img className="artImg" src={artImg} alt="Custom Drawing"></img>
             <p> <Link to="design"> my first love & my roots ---  visit the ARTchive </Link> </p>
             </div>
 
 
             <div className="designPic"> 
             <span className="spanImgTitle"> 1970s Abecedarium // 2016 </span> 
-            <img className="designImg" src={designImg}></img>
+            <img className="designImg" src={designImg} alt="Abecedarium Book Design Cover"></img>
             <p>  my passion, design --- view all </p> 
             </div>
 
 
             <div>    
             <span className="spanImgTitle">  Gym Ratz // 2022  </span>
-                <img className="devImg" src={devImg}></img>
+                <img className="devImg" src={devImg} alt="fitness static poster"></img>
             <p> my new obsession, development --- click away</p>
             </div>
 
