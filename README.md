@@ -9,6 +9,6 @@ HTML/CSS, Node.js, React.js
 
 ### Development Link
 
-https://thechicketarian.github.io/React-Portfolio/
+https://bexijoibel.com
 
 
