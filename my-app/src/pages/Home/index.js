@@ -20,36 +20,37 @@ function Home(){
 
         <h1 className="homeH1"> artist. designer. developer.  </h1>
         <div className="hp-menu"> 
-        <Link to ="development"> hey, i coded this && collabed with that</Link>
+        <Link to ="about"> about me</Link> 
         <hr></hr>
-        <Link to ="about"> all about me</Link> 
+        <Link to ="dev"> LinkedIn </Link>
         <hr></hr>
-        <Link to="design"> all kind of designs </Link> 
+        <Link to="https://github.com/thechicketarian"> GitHub </Link> 
         </div>
         
         <div className="boxes"> 
 
-        <div> <h2> explore. </h2> <span> Proudly designing since 2016, coding fluently since 2021, and happily creating since 94.</span> from my heart, Bexi Joibel C. </div>
+        <div> <h2> Specialties </h2> <span> Proudly designing since 2016, coding fluently since 2021, and happily creating since 94.</span> from my heart, Bexi Joibel C. </div>
 
 
         <div>
         <span className="spanImgTitle"> Idle Hands // 2012 </span>
         <img className="artImg" src={artImg} alt="Custom Drawing"></img>
-            <p> <Link to="design"> my first love & my roots ---  visit the ARTchive </Link> </p>
+            {/* <p> <Link to="design"> my first love & my roots ---  visit the ARTchive </Link> </p> */}
+            <p> my first love & my roots </p>
             </div>
 
 
             <div className="designPic"> 
             <span className="spanImgTitle"> 1970s Abecedarium // 2016 </span> 
             <img className="designImg" src={designImg} alt="Abecedarium Book Design Cover"></img>
-            <p>  my passion, design --- view all </p> 
+            <p>  my passion, design  </p> 
             </div>
 
 
             <div>    
             <span className="spanImgTitle">  Gym Ratz // 2022  </span>
                 <img className="devImg" src={devImg} alt="fitness static poster"></img>
-            <p> my new obsession, development --- click away</p>
+            <p> my new obsession, development </p>
             </div>
 
 

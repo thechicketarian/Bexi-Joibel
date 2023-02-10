@@ -2,6 +2,7 @@ import React from "react";
 import {Link } from "react-router-dom"
 import { useLocation } from "react-router-dom";
 import logo from '../images/bjlogo.svg'
+import ResumeFile from "../images/BexiResume.pdf";
 
 function Header() {
 
@@ -18,8 +19,9 @@ function Header() {
         <div className="navLinks">
           <Link to ="about"> About</Link>
           {/* <Link to ="design">Design</Link> */}
-          <Link to ="dev">Dev</Link>
-          <Link to ="resume">Resume</Link>
+          {/* <Link to ="dev">Dev</Link> */}
+          {/* <Link to ="resume">Resume</Link> */}
+          <a className = "resumeDownload" href={ResumeFile}  target="_blank" rel="noreferrer"> Resume</a>
           {/* <Link to ="contact">Contact</Link> */}
         </div>
     </nav>
