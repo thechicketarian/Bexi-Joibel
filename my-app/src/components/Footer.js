@@ -12,7 +12,7 @@ function Footer() {
   
   return (
     <footer>
-      <h4> est. 2023 Bexi Joibel Creations</h4>
+      <h4> est. 2023 Bexi Joibel Creative</h4>
           <a href="https://github.com/thechicketarian/React-Porftolio" rel="noopener noreferrer" target="_blank"> GitHub</a>
           {/* <Link to ="portfolio"> Portfolio </Link> */}
           {/* <Link to ="resume"> Resume </Link> */}
