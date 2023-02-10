@@ -36,21 +36,21 @@ function Home(){
         <span className="spanImgTitle"> Idle Hands // 2012 </span>
         <img className="artImg" src={artImg} alt="Custom Drawing"></img>
             {/* <p> <Link to="design"> my first love & my roots ---  visit the ARTchive </Link> </p> */}
-            <p> fine arts: my first love & my roots </p>
+            <p> fine arts: my first love & roots </p>
             </div>
 
 
             <div className="designPic"> 
             <span className="spanImgTitle"> 1970s Abecedarium // 2016 </span> 
             <img className="designImg" src={designImg} alt="Abecedarium Book Design Cover"></img>
-            <p>  design: my passion  </p> 
+            <p>  design: my foundation  </p> 
             </div>
 
 
             <div>    
             <span className="spanImgTitle">  Gym Ratz // 2022  </span>
                 <img className="devImg" src={devImg} alt="fitness static poster"></img>
-            <p> my new obsession: development </p>
+            <p> development: my new passion </p>
             </div>
 
 
