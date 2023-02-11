@@ -20,7 +20,7 @@ function Home(){
 
         <h1 className="homeH1"> artist. designer. developer.  </h1>
         <div className="hp-menu"> 
-        <Link to ="about"> about me</Link> 
+        <Link to ="about"> about me </Link> 
         <hr></hr>
         <Link to ="dev"> LinkedIn </Link>
         <hr></hr>
