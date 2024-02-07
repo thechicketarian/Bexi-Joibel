@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2b9cc1e.chunk.css",
+    "main.css": "/static/css/main.2fa50a98.chunk.css",
     "main.js": "/static/js/main.064d0cf5.chunk.js",
     "main.js.map": "/static/js/main.064d0cf5.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.2091b4db.js",
@@ -10,9 +10,9 @@
     "static/js/3.d5f86460.chunk.js": "/static/js/3.d5f86460.chunk.js",
     "static/js/3.d5f86460.chunk.js.map": "/static/js/3.d5f86460.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.006436c0c985daccb5cd68a9ff004d3e.js": "/precache-manifest.006436c0c985daccb5cd68a9ff004d3e.js",
+    "precache-manifest.f70465147a1c0b6d9355360137656a79.js": "/precache-manifest.f70465147a1c0b6d9355360137656a79.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e2b9cc1e.chunk.css.map": "/static/css/main.e2b9cc1e.chunk.css.map",
+    "static/css/main.2fa50a98.chunk.css.map": "/static/css/main.2fa50a98.chunk.css.map",
     "static/media/BexiResume.pdf": "/static/media/BexiResume.a785fef8.pdf",
     "static/media/artImg.jpg": "/static/media/artImg.e423e36a.jpg",
     "static/media/bjlogo.svg": "/static/media/bjlogo.129c0c7f.svg",
