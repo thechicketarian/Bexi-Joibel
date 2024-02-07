@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fba0995.css",
-    "main.js": "/static/js/main.91cab7e7.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/videoMobile.gif": "/static/media/videoMobile.0ec04943aee35f677775.gif",
-    "static/media/header.mp4": "/static/media/header.1917ef67d150963160fa.mp4",
-    "static/media/artImg.jpg": "/static/media/artImg.22951e8264f82519f102.jpg",
-    "static/media/gymRats.jpg": "/static/media/gymRats.e055f03923b5b069e35c.jpg",
-    "static/media/BexiResume.pdf": "/static/media/BexiResume.8d6c1aa46a89229be5a0.pdf",
-    "static/media/vidthumb.jpg": "/static/media/vidthumb.5df4aefbdc9441637122.jpg",
-    "static/media/bjlogo.svg": "/static/media/bjlogo.ec0c4333f99bfb5289ddbc36f5f4a65f.svg",
+    "main.css": "/static/css/main.e2b9cc1e.chunk.css",
+    "main.js": "/static/js/main.064d0cf5.chunk.js",
+    "main.js.map": "/static/js/main.064d0cf5.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.2091b4db.js",
+    "runtime~main.js.map": "/static/js/runtime~main.2091b4db.js.map",
+    "static/js/2.3ea34e93.chunk.js": "/static/js/2.3ea34e93.chunk.js",
+    "static/js/2.3ea34e93.chunk.js.map": "/static/js/2.3ea34e93.chunk.js.map",
+    "static/js/3.d5f86460.chunk.js": "/static/js/3.d5f86460.chunk.js",
+    "static/js/3.d5f86460.chunk.js.map": "/static/js/3.d5f86460.chunk.js.map",
     "index.html": "/index.html",
-    "main.2fba0995.css.map": "/static/css/main.2fba0995.css.map",
-    "main.91cab7e7.js.map": "/static/js/main.91cab7e7.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.2fba0995.css",
-    "static/js/main.91cab7e7.js"
-  ]
+    "precache-manifest.006436c0c985daccb5cd68a9ff004d3e.js": "/precache-manifest.006436c0c985daccb5cd68a9ff004d3e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e2b9cc1e.chunk.css.map": "/static/css/main.e2b9cc1e.chunk.css.map",
+    "static/media/BexiResume.pdf": "/static/media/BexiResume.a785fef8.pdf",
+    "static/media/artImg.jpg": "/static/media/artImg.e423e36a.jpg",
+    "static/media/bjlogo.svg": "/static/media/bjlogo.129c0c7f.svg",
+    "static/media/gymRats.jpg": "/static/media/gymRats.a2f553f3.jpg",
+    "static/media/header.mp4": "/static/media/header.3562226b.mp4",
+    "static/media/videoMobile.gif": "/static/media/videoMobile.6e9ad8a1.gif",
+    "static/media/vidthumb.jpg": "/static/media/vidthumb.1d657977.jpg"
+  }
 }
