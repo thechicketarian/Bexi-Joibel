@@ -69,13 +69,13 @@ main, .main {
       /* text-transform: uppercase; */
       font-weight: 900;
   }
+
+  .logo a:first-child:hover {
+    --strike: 0;
+  }
   
   .bjlogo {
     width: 60px;
-    text-decoration: none;
-  }
-
-  .bjlogo:hover {
     text-decoration: none;
   }
 
@@ -90,7 +90,7 @@ main, .main {
   footer {
     margin: 50px;
     display: flex;
-  
+    align-items: center;
   }
   
   footer a,h4 {

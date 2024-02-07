@@ -21,7 +21,7 @@ function Header() {
           {/* <Link to ="design">Design</Link> */}
           {/* <Link to ="dev">Dev</Link> */}
           {/* <Link to ="resume">Resume</Link> */}
-          <a className = "resumeDownload" href={ResumeFile}  target="_blank" rel="noreferrer"> Resume</a>
+          <a className = "resumeDownload" href={ResumeFile}  target="_blank" rel="noopener noreferrer"> Resume</a>
           {/* <Link to ="contact">Contact</Link> */}
         </div>
     </nav>

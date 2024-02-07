@@ -22,15 +22,15 @@ function Home(){
         <div className="hp-menu"> 
         <Link to ="about"> about me </Link> 
         <hr></hr>
-        <Link to ="dev"> LinkedIn </Link>
-        <hr></hr>
-        <Link to="https://github.com/thechicketarian"> GitHub </Link> 
+        {/* <Link to ="https://www.linkedin.com/in/bexi-joibel/" target="_blank"> LinkedIn </Link> */}
+        <a href="https://www.linkedin.com/in/bexi-joibel/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        {/* <hr></hr> */}
+        {/* <Link to="https://github.com/thechicketarian" target="_blank"> GitHub </Link>  */}
         </div>
         
         <div className="boxes"> 
 
-        <div> <h2> Specialties </h2> <span> Proudly designing since 2016, coding fluently since 2022, and happily creating since 94.</span> from my heart, Bexi Joibel C. </div>
-
+        <div> <h2> Specialties </h2> <span> Proudly designing since 2016, coding fluently since 2022, and happily creating since 94.</span> – Bexi Joibel C. </div>
 
         <div>
         <span className="spanImgTitle"> Idle Hands // 2012 </span>
@@ -50,11 +50,8 @@ function Home(){
             <div>    
             <span className="spanImgTitle">  Gym Ratz // 2022  </span>
                 <img className="devImg" src={devImg} alt="fitness static poster"></img>
-            <p> development: my new passion </p>
+            <p> development: my new discipline </p>
             </div>
-
-
-
         </div>
         </main>
         

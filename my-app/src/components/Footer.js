@@ -9,10 +9,16 @@ function Footer() {
   // const { pathname } = useLocation();
   // console.log(pathname);
   // if (pathname === "/" ) return null;
+
+  const { DateTime } = require("luxon");
+
+  const currentYear = DateTime.now().year
   
+  console.log(currentYear)
+
   return (
     <footer>
-      <h4> est. 2023 Bexi Joibel Creative</h4>
+      <h4> est. {currentYear} Bexi Joibel Creative</h4>
           <a href="https://github.com/thechicketarian/React-Porftolio" rel="noopener noreferrer" target="_blank"> GitHub</a>
           {/* <Link to ="portfolio"> Portfolio </Link> */}
           {/* <Link to ="resume"> Resume </Link> */}
